@@ -1,4 +1,4 @@
-# tfenv Docker image
+# tfenv Docker
 
 ## Usage
 * Clone the repo 
