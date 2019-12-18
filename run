@@ -1,0 +1,5 @@
+ docker run -it --rm --name tfenv \
+   -e AWS_PROFILE=sumup \
+   -v ~/sumup/keys:/home/hganekov/.ssh \
+   -v ~/.aws/credentials:/home/hganekov/.aws/credentials \
+   -v `pwd`/terraform:/home/hganekov/terraform tfenv
